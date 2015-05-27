@@ -19,8 +19,9 @@
 <p>Questi dati sono rilasciati con <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">licenza creative commons attribution share-alike 4.0</a> in ragione della compatibilità con la <a href="https://it.wikipedia.org/wiki/Italian_Open_Data_License">licenza IODL 1.0</a> con la quale sono rilasciati i dataset originali.</p>
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
-<p>
-* pc:         http://purl.org/procurement/public-contracts#
+
+* pc:         http://purl.org/procurement/public-contracts# 
+
 * dcterms:     http://purl.org/dc/terms#
 * gr:         http://purl.org/goodrelations/v1#
 * dbpedia-owl:    http://dbpedia.org/ontology/
@@ -31,7 +32,7 @@
  Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
 
 
-</p>
+
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
 
 </ol>
