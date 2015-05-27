@@ -16,7 +16,7 @@
 <p>Si tratta per la gran parte di organismi pubblici, i quali possono essere stazione appaltante, e in altri casi, aggiudicatari di un bando promosso da un altro ente pubblico.</p>
 
 <li><b>Ci sono limitazioni all’uso dei dati?</b></li>
-<p>No, sono <a href=”http://it.wikipedia.org/wiki/Dati_aperti”>open data</a>.</p>
+<p>Questi dati sono rilasciati con licenza creative commons attribution share-alike 4.0 in ragione della compatibilità con la licenza IODL 1.0 con la quale sonon rilasciati i dataset originali.</p>
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
 <p>
