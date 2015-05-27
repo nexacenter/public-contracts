@@ -29,7 +29,7 @@
 * time:        http://www.w3.org/2006/time#
 * org:        http://www.w3.org/ns/org#
 * foaf:        http://xmlns.com/foaf/0.1#
- Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
+* Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
 
 
 
