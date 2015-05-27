@@ -20,15 +20,16 @@
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
 <p>
-pc:         http://purl.org/procurement/public-contracts#
-dcterms:     http://purl.org/dc/terms#
-gr:         http://purl.org/goodrelations/v1#
-dbpedia-owl:    http://dbpedia.org/ontology/
-pay:         http://reference.data.gov.uk/def/payment#
-time:        http://www.w3.org/2006/time#
-org:        http://www.w3.org/ns/org#
-foaf:        http://xmlns.com/foaf/0.1#
-Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. 
+* pc:         http://purl.org/procurement/public-contracts#
+* dcterms:     http://purl.org/dc/terms#
+* gr:         http://purl.org/goodrelations/v1#
+* dbpedia-owl:    http://dbpedia.org/ontology/
+* pay:         http://reference.data.gov.uk/def/payment#
+* time:        http://www.w3.org/2006/time#
+* org:        http://www.w3.org/ns/org#
+* foaf:        http://xmlns.com/foaf/0.1#
+ Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
+
 
 </p>
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
