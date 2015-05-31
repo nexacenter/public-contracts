@@ -12,11 +12,17 @@
 <li><b>Ho fatto una ricerca e non ho trovato un certo ente. Come mai?</b></li>
 <p>Non tutti gli organismi pubblici hanno esposto correttamente i dati ex “Decreto Trasparenza" sui contratti pubblici. Inoltre, al 21/05/2015, circa il 30% dei link di file xml presenti sul <a href="http://dati.anticorruzione.it/L190.html">portale Open Data dell’ANAC</a> sono errati o non restituiscono file validi, e circa 5000 PA sono completamente assenti sul  portale Open Data ANAC.   Ti consigliamo di segnalare il problema alla PA mancante, affinché possa colmare la lacuna.</p>
 
+https://github.com/nexacenter/public-contracts/wiki/SPARQL-queries-examples
+
+
 <li><b>Perché certi soggetti compaiono sia come stazioni appaltanti, sia come aggiudicatari di contratti?</b></li>
 <p>Si tratta per la gran parte di organismi pubblici, i quali possono essere stazione appaltante, e in altri casi, aggiudicatari di un bando promosso da un altro ente pubblico.</p>
 
 <li><b>Ci sono limitazioni all’uso dei dati?</b></li>
 <p>Questi dati sono rilasciati con <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">licenza creative commons attribution share-alike 4.0</a> in ragione della compatibilità con la <a href="https://it.wikipedia.org/wiki/Italian_Open_Data_License">licenza IODL 1.0</a> con la quale sono rilasciati i dataset originali.</p>
+
+<li><b>Posso trovare esempi di query sparql?</b></li>
+<p>Sì, consulta la<a href="https://github.com/nexacenter/public-contracts/wiki/SPARQL-queries-examples"> nostra wiki</a> </p>
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
 </ol>
