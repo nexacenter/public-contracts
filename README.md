@@ -13,6 +13,4 @@ the following command:
 
     git submodule update --init
 
-## Dependencies
-
 <p align="center"><img src="all.png" alt="Complete visualization" /></p>
