@@ -44,8 +44,7 @@ https://github.com/nexacenter/public-contracts/wiki/SPARQL-queries-examples
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
 
 
-![lodwiew2](https://cloud.githubusercontent.com/assets/11498717/7833981/863dc26e-046b-11e5-8556-fe94448f5173.png)
-![lodview](https://cloud.githubusercontent.com/assets/11498717/7833985/8a7d27de-046b-11e5-86b0-04bea443b2b9.png)
+
 
 
 
