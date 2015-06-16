@@ -12,7 +12,18 @@
 <p>Se il primo è più alto del secondo, è possibile che l’orizzonte temporale del contratto vada oltre il 2014, e che quindi non sia ancora stato erogato l’intero importo, oppure che la PA abbia pubblicato dati incompleti per gli anni precedenti. Se il secondo è più alto del primo, è possibile che, in corso d’opera, l’ammontare dell’erogazione sia cresciuta, ad esempio per un aumento dei costi. Naturalmente, si tratta di esempi che non rendono conto di tutte le fattispecie possibili, che andrebbero comunque valutate caso per caso.</p>
 
 <li><b>Ho fatto una ricerca e non ho trovato un certo ente. Come mai?</b></li>
-<p>Non tutti gli organismi pubblici hanno esposto correttamente i dati ex “Decreto Trasparenza" sui contratti pubblici. Inoltre, al 21/05/2015, circa il 30% dei link di file xml presenti sul <a href="http://dati.anticorruzione.it/L190.html">portale Open Data dell’ANAC</a> sono errati o non restituiscono file validi, e circa 5000 PA sono completamente assenti sul  portale Open Data ANAC. Ti consigliamo di segnalare il problema alla PA mancante, affinché possa colmare la lacuna.</p>
+<p>Non tutti gli organismi pubblici hanno esposto correttamente i dati ex “Decreto Trasparenza" sui contratti pubblici. Inoltre, al 21/05/2015, circa il 30% dei link di file xml presenti sul <a href="http://dati.anticorruzione.it/L190.html">portale Open Data dell’ANAC</a> sono errati o non restituiscono file validi, e circa 5000 PA sono completamente assenti sul portale Open Data ANAC. Ti consigliamo di segnalare il problema alla PA mancante, affinché possa colmare la lacuna. </p>
+
+<li><b>Che politica avete adottato nel caso di CIG non valido o nullo e/o di codice fiscale non valido o nullo?</b></li>
+<p>Per ciascuna gara con CIG non valido o nullo (casi di gare per le quali non è prevista l'assegnazione del CIG: è stato generato per l'identificazione della gara un campo "cigHash" in forma di stringa esadecimale [sha1](http://en.wikipedia.org/wiki/SHA-1), costruito in base a:
+	* Codice Fiscale della struttura proponente
+	* Importo Aggiudicazione
+	* Scelta Contraente (tipo di procedura di aggiudicazione) 
+	* Codice Fiscale(di seguito c.f)/p.iva dell'aggiudicatario. Nel caso l'aggiudicatario sia un raggruppamento, è utilizzato l'hash del raggruppamento, basato sui c.f/p.iva dei partecipanti in ordine alfabetico. 
+
+Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari dei contratti viene generato un hash a partire dalla ragione sociale. Queste scelta è stata compiuta per non perdere informazioni ed eventualmente risalire, con opportune procedure di pulizia e inferenza, alla business entity corretta. 
+
+</p>
 
 <li><b>Perché certi soggetti compaiono sia come stazioni appaltanti, sia come aggiudicatari di contratti?</b></li>
 <p>Si tratta per la gran parte di organismi pubblici, i quali possono essere stazione appaltante, e in altri casi, aggiudicatari di un bando promosso da un altro ente pubblico.</p>
