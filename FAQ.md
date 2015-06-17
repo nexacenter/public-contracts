@@ -96,7 +96,8 @@ di alcune proprietà definite dallo schema skos della  Public Contracts Ontology
 		http://public-contracts.nexacenter.org/id/procedureTypes/26affidamento_diretto_in_adesione_ad_accordo_quadro_convenzione
 		http://public-contracts.nexacenter.org/id/procedureTypes/17affidamento_diretto_ex_art_5_della_legge_n_381_91
 
-Nello schema skos  proctypes non è stato trovato alcun tipo di tipo di procedura di cui i seguenti tipi possono essere 				
+Nello schema skos  proctypes non è stato trovato alcun tipo di tipo di procedura di cui i seguenti tipi possono essere 		
+
 		skos:narrower
 		http://public-contracts.nexacenter.org/id/procedureTypes/14procedura_selettiva_ex_art_238_c_7_d_lgs_163_2006
 		http://public-contracts.nexacenter.org/id/procedureTypes/28procedura_ai_sensi_dei_regolamenti_degli_organi_costituzionali
