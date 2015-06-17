@@ -16,14 +16,13 @@
 
 <li><b>Che politica avete adottato nel caso di CIG non valido o nullo e/o di codice fiscale non valido o nullo?</b></li>
 <p>Per ciascuna gara con CIG non valido o nullo (casi di gare per le quali non è prevista l'assegnazione del CIG: è stato generato per l'identificazione della gara un campo "cigHash" in forma di stringa esadecimale [sha1](http://en.wikipedia.org/wiki/SHA-1), costruito in base a:
-	* Codice Fiscale della struttura proponente
-	* Importo Aggiudicazione
-	* Scelta Contraente (tipo di procedura di aggiudicazione) 
-	* Codice Fiscale(di seguito c.f)/p.iva dell'aggiudicatario. Nel caso l'aggiudicatario sia un raggruppamento, è utilizzato l'hash del raggruppamento, basato sui c.f/p.iva dei partecipanti in ordine alfabetico. 
-
-Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari dei contratti viene generato un hash a partire dalla ragione sociale. Queste scelta è stata compiuta per non perdere informazioni ed eventualmente risalire, con opportune procedure di pulizia e inferenza, alla business entity corretta. 
-
-</p>
+<ul>
+	<li>Codice Fiscale della struttura proponente</li>
+	<li>Importo Aggiudicazione</li>
+	<li>Scelta Contraente (tipo di procedura di aggiudicazione)</li>
+	<li>Codice Fiscale(di seguito c.f)/p.iva dell'aggiudicatario. Nel caso l'aggiudicatario sia un raggruppamento, è utilizzato l'hash del raggruppamento, basato sui c.f/p.iva dei partecipanti in ordine alfabetico.</li>
+</ul>
+Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari dei contratti viene generato un hash a partire dalla ragione sociale. Queste scelta è stata compiuta per non perdere informazioni ed eventualmente risalire, con opportune procedure di pulizia e inferenza, alla business entity corretta.</p>
 
 <li><b>Perché certi soggetti compaiono sia come stazioni appaltanti, sia come aggiudicatari di contratti?</b></li>
 <p>Si tratta per la gran parte di organismi pubblici, i quali possono essere stazione appaltante, e in altri casi, aggiudicatari di un bando promosso da un altro ente pubblico.</p>
