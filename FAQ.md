@@ -38,7 +38,7 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
 
-
+</ol>
 * pc:         http://purl.org/procurement/public-contracts# 
 * dcterms:     http://purl.org/dc/terms#
 * gr:         http://purl.org/goodrelations/v1#
@@ -48,33 +48,34 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 * org:        http://www.w3.org/ns/org#
 * foaf:        http://xmlns.com/foaf/0.1#
 
-</ol>
+
 
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
 Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
  <li><b>Uri delle roperties custom </b></li>
-01-MANDANTE	http://public-contracts.nexacenter.org/pc/propertiesRole/01-MANDANTE
-02-MANDATARIA	http://public-contracts.nexacenter.org/pc/propertiesRole/02-MANADTARIA
-03-ASSOCIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/03-ASSOCIATA
-04-CAPOGRUPPO	http://public-contracts.nexacenter.org/pc/propertiesRole/04-CAPOGRUPPO
-05-CONSORZIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/05-CONSORZIATA
+* 01-MANDANTE	http://public-contracts.nexacenter.org/pc/propertiesRole/01-MANDANTE
+* 02-MANDATARIA	http://public-contracts.nexacenter.org/pc/propertiesRole/02-MANADTARIA
+* 03-ASSOCIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/03-ASSOCIATA
+* 04-CAPOGRUPPO	http://public-contracts.nexacenter.org/pc/propertiesRole/04-CAPOGRUPPO
+* 05-CONSORZIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/05-CONSORZIATA
 
-Le properties custom definite sono state dichiarate RDFs:subPropertyOf org:role . 
+Le properties custom definite sono state dichiarate 
+		RDFs:subPropertyOf org:role . 
 
 Per quanto riguarda i tipi di procedura, sono state definite delle properties custom in modo analogo. Esse sono state dichiarate  skos:narrower  di alcune proprietà definite dallo schema skos della  Public Contracts Ontology (proctypes) , come segue: 
 
-proctypes:Open
-http://public-contracts.nexacenter.org/id/procedureTypes/01procedura_aperta
+		proctypes:Open
+		http://public-contracts.nexacenter.org/id/procedureTypes/01procedura_aperta
 
-proctypes:Restricted
-http://public-contracts.nexacenter.org/id/procedureTypes/02procedura_ristretta
-http://public-contracts.nexacenter.org/id/procedureTypes/21procedura_ristretta_derivante_da_avvisi_con_cui_si_indice_la_gara
-http://public-contracts.nexacenter.org/id/procedureTypes/22procedura_negoziata_derivante_da_avvisi_con_cui_si_indice_la_gara
+		proctypes:Restricted
+		http://public-contracts.nexacenter.org/id/procedureTypes/02procedura_ristretta
+		http://public-contracts.nexacenter.org/id/procedureTypes/21procedura_ristretta_derivante_da_avvisi_con_cui_si_indice_la_gara
+		http://public-contracts.nexacenter.org/id/procedureTypes/22procedura_negoziata_derivante_da_avvisi_con_cui_si_indice_la_gara
 
-proctypes:Negotiated          
-http://public-contracts.nexacenter.org/id/procedureTypes/03procedura_negoziata_previa_pubblicazione_del_bando
-http://public-contracts.nexacenter.org/id/procedureTypes/04procedura_negoziata_senza_previa_pubblicazione_del_bando
+		proctypes:Negotiated          
+		http://public-contracts.nexacenter.org/id/procedureTypes/03procedura_negoziata_previa_pubblicazione_del_bando
+		http://public-contracts.nexacenter.org/id/procedureTypes/04procedura_negoziata_senza_previa_pubblicazione_del_bando
 
 proctypes:CompetitiveDialogue
 http://public-contracts.nexacenter.org/id/procedureTypes/05dialogo_competitivo
