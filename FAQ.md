@@ -37,7 +37,7 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 <p>Sì, consulta la<a href="https://github.com/nexacenter/public-contracts/wiki/SPARQL-queries-examples"> nostra wiki</a>.</p>
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
-</ol>
+
 
 * pc:         http://purl.org/procurement/public-contracts# 
 * dcterms:     http://purl.org/dc/terms#
@@ -48,12 +48,12 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 * org:        http://www.w3.org/ns/org#
 * foaf:        http://xmlns.com/foaf/0.1#
 * Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
-
+</ol>
 
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
 
-* <li><b>Uri delle roperties custom </b></li>
+ <li><b>Uri delle roperties custom </b></li>
 01-MANDANTE	http://public-contracts.nexacenter.org/pc/propertiesRole/01-MANDANTE
 02-MANDATARIA	http://public-contracts.nexacenter.org/pc/propertiesRole/02-MANADTARIA
 03-ASSOCIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/03-ASSOCIATA
