@@ -53,7 +53,7 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
 
-* Uri delle roperties custom 
+* <li><b>Uri delle roperties custom </b></li>
 01-MANDANTE	http://public-contracts.nexacenter.org/pc/propertiesRole/01-MANDANTE
 02-MANDATARIA	http://public-contracts.nexacenter.org/pc/propertiesRole/02-MANADTARIA
 03-ASSOCIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/03-ASSOCIATA
