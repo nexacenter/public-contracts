@@ -63,7 +63,9 @@ Sono state usate properties custom per esprimere il ruolo di un'azienda in un ra
 Le properties custom definite sono state dichiarate 
 		RDFs:subPropertyOf org:role . 
 
-Per quanto riguarda i tipi di procedura, sono state definite delle properties custom in modo analogo. Esse sono state dichiarate  skos:narrower  di alcune proprietà definite dallo schema skos della  Public Contracts Ontology (proctypes) , come segue: 
+Per quanto riguarda i tipi di procedura, sono state definite delle properties custom in modo analogo. Esse sono state dichiarate  
+		skos:narrower 
+di alcune proprietà definite dallo schema skos della  Public Contracts Ontology (proctypes) , come segue: 
 
 		proctypes:Open
 		http://public-contracts.nexacenter.org/id/procedureTypes/01procedura_aperta
@@ -77,26 +79,26 @@ Per quanto riguarda i tipi di procedura, sono state definite delle properties cu
 		http://public-contracts.nexacenter.org/id/procedureTypes/03procedura_negoziata_previa_pubblicazione_del_bando
 		http://public-contracts.nexacenter.org/id/procedureTypes/04procedura_negoziata_senza_previa_pubblicazione_del_bando
 
-proctypes:CompetitiveDialogue
-http://public-contracts.nexacenter.org/id/procedureTypes/05dialogo_competitivo
-http://public-contracts.nexacenter.org/id/procedureTypes/27confronto_competitivo_in_adesione_ad_accordo_quadro_convenzione
+		proctypes:CompetitiveDialogue
+		http://public-contracts.nexacenter.org/id/procedureTypes/05dialogo_competitivo
+		http://public-contracts.nexacenter.org/id/procedureTypes/27confronto_competitivo_in_adesione_ad_accordo_quadro_convenzione
 
-proctypes:NegotiatedWithoutCompetition
-http://public-contracts.nexacenter.org/id/procedureTypes/06procedura_negoziata_senza_previa_indizione_di_gara_art_221_d_lgs_163_2006
+		proctypes:NegotiatedWithoutCompetition
+		http://public-contracts.nexacenter.org/id/procedureTypes/06procedura_negoziata_senza_previa_indizione_di_gara_art_221_d_lgs_163_2006
 
-proctypes:AwardWithoutPriorPublication
-http://public-contracts.nexacenter.org/id/procedureTypes/08affidamento_in_economia_cottimo_fiduciario
+		proctypes:AwardWithoutPriorPublication
+		http://public-contracts.nexacenter.org/id/procedureTypes/08affidamento_in_economia_cottimo_fiduciario
 
-proctypes:AwardWithoutPriorPublication 
-http://public-contracts.nexacenter.org/id/procedureTypes/23affidamento_in_economia_affidamento_diretto
-http://public-contracts.nexacenter.org/id/procedureTypes/24affidamento_diretto_a_societa_in_house
-http://public-contracts.nexacenter.org/id/procedureTypes/25affidamento_diretto_a_societa_raggruppate_consorziate_o_controllate_nelle_concessioni_di_ll_pp
-http://public-contracts.nexacenter.org/id/procedureTypes/26affidamento_diretto_in_adesione_ad_accordo_quadro_convenzione
-http://public-contracts.nexacenter.org/id/procedureTypes/17affidamento_diretto_ex_art_5_della_legge_n_381_91
+		proctypes:AwardWithoutPriorPublication 
+		http://public-contracts.nexacenter.org/id/procedureTypes/23affidamento_in_economia_affidamento_diretto
+		http://public-contracts.nexacenter.org/id/procedureTypes/24affidamento_diretto_a_societa_in_house
+		http://public-contracts.nexacenter.org/id/procedureTypes/25affidamento_diretto_a_societa_raggruppate_consorziate_o_controllate_nelle_concessioni_di_ll_pp
+		http://public-contracts.nexacenter.org/id/procedureTypes/26affidamento_diretto_in_adesione_ad_accordo_quadro_convenzione
+		http://public-contracts.nexacenter.org/id/procedureTypes/17affidamento_diretto_ex_art_5_della_legge_n_381_91
 
 Nello schema skos  proctypes non è stato trovato alcun tipo di tipo di procedura di cui i seguenti tipi possono essere skos:narrower
-http://public-contracts.nexacenter.org/id/procedureTypes/14procedura_selettiva_ex_art_238_c_7_d_lgs_163_2006
-http://public-contracts.nexacenter.org/id/procedureTypes/28procedura_ai_sensi_dei_regolamenti_degli_organi_costituzionali
+		http://public-contracts.nexacenter.org/id/procedureTypes/14procedura_selettiva_ex_art_238_c_7_d_lgs_163_2006
+		http://public-contracts.nexacenter.org/id/procedureTypes/28procedura_ai_sensi_dei_regolamenti_degli_organi_costituzionali
 
 
 
