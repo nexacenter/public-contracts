@@ -37,8 +37,8 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 <p>Sì, consulta la<a href="https://github.com/nexacenter/public-contracts/wiki/SPARQL-queries-examples"> nostra wiki</a>.</p>
 
 <li><b>Quali ontologie sono state usate per generare i linked data?</b></li>
-</ol>
 
+</ol>
 * pc:         http://purl.org/procurement/public-contracts# 
 * dcterms:     http://purl.org/dc/terms#
 * gr:         http://purl.org/goodrelations/v1#
@@ -47,11 +47,60 @@ Nel caso del codice fiscale delle stazioni appaltanti e/o degli aggiudicatari de
 * time:        http://www.w3.org/2006/time#
 * org:        http://www.w3.org/ns/org#
 * foaf:        http://xmlns.com/foaf/0.1#
-* Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
+
 
 
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11498717/7832942/0298f65c-0463-11e5-8af5-62510c838f87.png" alt="Complete visualization" /></p>
+Sono state usate properties custom per esprimere il ruolo di un'azienda in un raggruppamento e per esprimere i tipi di procedura. Segue un grafo dela struttura dati: 
+ <li><b>Uri delle roperties custom </b></li>
+* 01-MANDANTE	http://public-contracts.nexacenter.org/pc/propertiesRole/01-MANDANTE
+* 02-MANDATARIA	http://public-contracts.nexacenter.org/pc/propertiesRole/02-MANADTARIA
+* 03-ASSOCIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/03-ASSOCIATA
+* 04-CAPOGRUPPO	http://public-contracts.nexacenter.org/pc/propertiesRole/04-CAPOGRUPPO
+* 05-CONSORZIATA	http://public-contracts.nexacenter.org/pc/propertiesRole/05-CONSORZIATA
+
+Le properties custom definite sono state dichiarate 
+		RDFs:subPropertyOf org:role . 
+
+Per quanto riguarda i tipi di procedura, sono state definite delle properties custom in modo analogo. Esse sono state dichiarate  
+		skos:narrower 
+di alcune proprietà definite dallo schema skos della  Public Contracts Ontology (proctypes) , come segue: 
+
+		proctypes:Open
+		http://public-contracts.nexacenter.org/id/procedureTypes/01procedura_aperta
+
+		proctypes:Restricted
+		http://public-contracts.nexacenter.org/id/procedureTypes/02procedura_ristretta
+		http://public-contracts.nexacenter.org/id/procedureTypes/21procedura_ristretta_derivante_da_avvisi_con_cui_si_indice_la_gara
+		http://public-contracts.nexacenter.org/id/procedureTypes/22procedura_negoziata_derivante_da_avvisi_con_cui_si_indice_la_gara
+
+		proctypes:Negotiated          
+		http://public-contracts.nexacenter.org/id/procedureTypes/03procedura_negoziata_previa_pubblicazione_del_bando
+		http://public-contracts.nexacenter.org/id/procedureTypes/04procedura_negoziata_senza_previa_pubblicazione_del_bando
+
+		proctypes:CompetitiveDialogue
+		http://public-contracts.nexacenter.org/id/procedureTypes/05dialogo_competitivo
+		http://public-contracts.nexacenter.org/id/procedureTypes/27confronto_competitivo_in_adesione_ad_accordo_quadro_convenzione
+
+		proctypes:NegotiatedWithoutCompetition
+		http://public-contracts.nexacenter.org/id/procedureTypes/06procedura_negoziata_senza_previa_indizione_di_gara_art_221_d_lgs_163_2006
+
+		proctypes:AwardWithoutPriorPublication
+		http://public-contracts.nexacenter.org/id/procedureTypes/08affidamento_in_economia_cottimo_fiduciario
+
+		proctypes:AwardWithoutPriorPublication 
+		http://public-contracts.nexacenter.org/id/procedureTypes/23affidamento_in_economia_affidamento_diretto
+		http://public-contracts.nexacenter.org/id/procedureTypes/24affidamento_diretto_a_societa_in_house
+		http://public-contracts.nexacenter.org/id/procedureTypes/25affidamento_diretto_a_societa_raggruppate_consorziate_o_controllate_nelle_concessioni_di_ll_pp
+		http://public-contracts.nexacenter.org/id/procedureTypes/26affidamento_diretto_in_adesione_ad_accordo_quadro_convenzione
+		http://public-contracts.nexacenter.org/id/procedureTypes/17affidamento_diretto_ex_art_5_della_legge_n_381_91
+
+Nello schema skos  proctypes non è stato trovato alcun tipo di tipo di procedura di cui i seguenti tipi possono essere 		
+
+		skos:narrower
+		http://public-contracts.nexacenter.org/id/procedureTypes/14procedura_selettiva_ex_art_238_c_7_d_lgs_163_2006
+		http://public-contracts.nexacenter.org/id/procedureTypes/28procedura_ai_sensi_dei_regolamenti_degli_organi_costituzionali
 
 
 
