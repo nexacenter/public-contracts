@@ -4,3 +4,6 @@
 [submodule "vis-public-contracts"]
 	path = vis-public-contracts
 	url = https://github.com/giuseppefutia/vis-public-contracts.git
+[submodule "ext-public-contracts"]
+	path = ext-public-contracts
+	url = git@github.com:nexacenter/ext-public-contracts.git
