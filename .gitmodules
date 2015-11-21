@@ -1,6 +1,3 @@
-[submodule "ANAC-converter"]
-	path = ANAC-converter
-	url = https://github.com/nicorusti/ANAC-converter.git
 [submodule "rdf-public-contracts"]
 	path = rdf-public-contracts
 	url = https://github.com/giuseppefutia/rdf-public-contracts.git
